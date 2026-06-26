@@ -1,0 +1,18 @@
+[package]
+name = "gxdp-sys"
+version = "0.1.0"
+edition = "2024"
+
+[package.metadata.system-deps]
+x11 = { name = "x11", version = "1.8.13" }
+wayland_client = { name = "wayland-client", version = "1.24.0" }
+
+[dependencies]
+glib-sys = "0.22"
+gdk4-sys = "0.11"
+libc = "0.2"
+gobject-sys = "0.22.6"
+
+[build-dependencies]
+system-deps = "7"
+

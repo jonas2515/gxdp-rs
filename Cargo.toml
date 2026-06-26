@@ -1,0 +1,9 @@
+[package]
+name = "gxdp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gxdp-sys = { path = "./gxdp-sys" }
+glib = "0.22"
+gdk4 = "0.11"

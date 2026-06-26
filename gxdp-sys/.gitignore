@@ -1,0 +1,5 @@
+Cargo.lock
+target
+subprojects/*
+!subprojects/libadwaita.wrap
+!subprojects/libgxdp.wrap
